@@ -28,11 +28,11 @@ The test command runs the project's Node rules tests. Test outcomes should be re
 | R | Retry |
 | Tab | Switch between editor and playtest |
 
-Collect coins, bounce on springs, avoid spikes and patrolling beetles, activate a checkpoint, and reach the finish. The course is 80 × 18 tiles, with 32-pixel tiles.
+Collect sunseeds, jump through and land on one-way platforms, hit seed blocks from below for a reward, bounce on springs, avoid spikes and patrolling beetles, activate a checkpoint, and reach the finish. Seed blocks can be used once per playtest and reset on retry. The course is 80 × 18 tiles, with 32-pixel tiles.
 
 ## Build
 
-Select a tile from the editor palette and click or drag across the course. Switch into playtest to try your changes. Use local save/load to retain a course in this browser, or JSON export/import to keep a portable copy.
+Name your course, select a tile from the editor palette, and click or drag across the course. Undo and redo edits using the buttons or Ctrl/Cmd-Z and Ctrl/Cmd-Shift-Z. Switch into playtest to try your changes. Use local save/load to retain a course in this browser, or JSON export/import to keep a portable copy.
 
 Browser storage is local to the current browser and origin. Clearing site data can remove saved courses; export JSON for a durable backup. Imported courses are user data, not executable code.
 
@@ -46,7 +46,7 @@ Return to [Kata Arcade](https://intrepion.github.io/).
 
 This is a deliberately scoped, original interpretation—not a Nintendo game, port, asset recreation, or full feature replica. It uses original programmatically drawn visuals and its own simplified movement and rules. No Nintendo artwork, characters, music, or level files are included.
 
-The reference requested for the project is Nintendo's [Super Mario Maker electronic manual](https://microsite.nintendo-europe.com/super-mario-maker-manual/enGB/page_01.html). The manual URL returned HTTP 503 during preparation, so its contents were not available for direct verification. The implementation follows the general course-building/playtesting concept, not a claim of page-by-page manual coverage.
+Nintendo’s [original game tutorial](https://en-americas-support.nintendo.com/app/answers/detail/a_id/15167/~/how-to-start-and-play-though-the-tutorial-%28super-mario-maker%29) describes placing elements, playtesting, and naming and saving a course. These inspired the editor flow; the mechanics and presentation here are simplified original interpretations.
 
 Deliberate limitations include no online course community, accounts, moderation, multiplayer, Nintendo game-style variants, extensive enemy catalog, or advanced Nintendo physics. Local JSON sharing is not an online publishing system. Creating a course does not certify that it is completable.
 
