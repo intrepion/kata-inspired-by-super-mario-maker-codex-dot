@@ -14,3 +14,8 @@
 
 - `npm test`: 15/15 passing. Simulation covers pickup, one-hit protection, immunity, respawn, brick breaking, retry, and editable-course isolation.
 - Local HTTP browser playtest: collected the example bloom and saw the shield indicator; placed a brick in the editor and broke it by jumping from below while powered. Shield loss was tested in simulation; a full course clear was not tested in this pass.
+
+## Switch and gate verification
+
+- `npm test`: 17/17 passing, including switch toggling, gate collision, reset, and preservation of the editable course in deterministic simulation.
+- Local HTTP browser playtest: placed a switch and both gate colors, jumped into the switch, passed through the opened coral gate, and stopped against the solid blue gate. A complete course clear and mobile controls were not tested in this pass.
