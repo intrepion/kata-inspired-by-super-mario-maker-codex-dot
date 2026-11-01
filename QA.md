@@ -19,3 +19,8 @@
 
 - `npm test`: 17/17 passing, including switch toggling, gate collision, reset, and preservation of the editable course in deterministic simulation.
 - Local HTTP browser playtest: placed a switch and both gate colors, jumped into the switch, passed through the opened coral gate, and stopped against the solid blue gate. A complete course clear and mobile controls were not tested in this pass.
+
+## Key and lock verification
+
+- `npm test`: 19/19 passing; simulation covers one-use keys, locked collision, multiple locks, checkpoint persistence, retry, and editor-course isolation.
+- Local HTTP browser playtest: placed a key and lock, observed the lock blocking movement without a key, collected the key, then passed the lock with the inventory returning to zero. A full course clear and mobile controls were not tested in this pass.
