@@ -28,7 +28,7 @@ The test command runs the project's Node rules tests. Test outcomes should be re
 | R | Retry |
 | Tab | Switch between editor and playtest |
 
-Collect sunseeds, jump through and land on one-way platforms, hit seed blocks from below for a reward, bounce on springs, avoid spikes and patrolling beetles, activate a checkpoint, and reach the finish. Seed blocks can be used once per playtest and reset on retry. The course is 80 × 18 tiles, with 32-pixel tiles.
+Collect sunseeds, jump through and land on one-way platforms, hit seed blocks from below for a reward, bounce on springs, avoid spikes and patrolling beetles, activate a checkpoint, and reach the finish. Seed blocks can be used once per playtest and reset on retry. Pick up a bloom to gain a shield against one thorn or beetle hit and break blocks by jumping into them from below. After a shield is lost, a brief flashing grace period prevents repeated hits. Falling still sends you back to the checkpoint, and retry restores the course. The course is 80 × 18 tiles, with 32-pixel tiles.
 
 ## Build
 

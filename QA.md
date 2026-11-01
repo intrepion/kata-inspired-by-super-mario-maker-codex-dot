@@ -9,3 +9,8 @@
 
 - `npm test`: 13/13 passing, including one-way platform collision, seed-block activation/reset, and undo/redo history.
 - Local HTTP browser smoke: placed a seed block above the start and jumped into it; the game reported a seed and score of 1. Placed a platform, undid and redid the edit, and renamed the course. Platform traversal itself was covered by deterministic simulation, not browser play.
+
+## Bloom expansion verification
+
+- `npm test`: 15/15 passing. Simulation covers pickup, one-hit protection, immunity, respawn, brick breaking, retry, and editable-course isolation.
+- Local HTTP browser playtest: collected the example bloom and saw the shield indicator; placed a brick in the editor and broke it by jumping from below while powered. Shield loss was tested in simulation; a full course clear was not tested in this pass.
