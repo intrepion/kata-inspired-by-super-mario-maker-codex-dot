@@ -1,0 +1,19 @@
+{
+  "id": "kata-inspired-by-super-mario-maker-codex-dot",
+  "title": "Sproutworks — Course Foundry",
+  "description": "Build, playtest, and share local JSON courses in an original garden-themed platform game editor.",
+  "entry": "index.html",
+  "repository": "kata-inspired-by-super-mario-maker-codex-dot",
+  "genres": ["platformer", "level-editor"],
+  "players": 1,
+  "input": ["keyboard", "pointer"],
+  "controls": {
+    "move": "ArrowLeft / ArrowRight or A / D",
+    "jump": "Space / W / ArrowUp",
+    "run": "Shift",
+    "retry": "R",
+    "toggleEditor": "Tab",
+    "build": "Select a tile, then click or drag"
+  },
+  "license": "MIT"
+}
