@@ -66,3 +66,7 @@ Deliberate limitations include no online course community, accounts, moderation,
 ## License
 
 Original project code and assets are available under the [MIT License](LICENSE). Nintendo and Super Mario Maker are trademarks of Nintendo; this independent project is not affiliated with or endorsed by Nintendo.
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
