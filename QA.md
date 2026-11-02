@@ -24,3 +24,9 @@
 
 - `npm test`: 19/19 passing; simulation covers one-use keys, locked collision, multiple locks, checkpoint persistence, retry, and editor-course isolation.
 - Local HTTP browser playtest: placed a key and lock, observed the lock blocking movement without a key, collected the key, then passed the lock with the inventory returning to zero. A full course clear and mobile controls were not tested in this pass.
+
+## Built-in progression — 2026-11-02
+
+- `npm test`: 26/26 passing. Tests validate all six course data sets, the first course's limited pieces, lesson item groups, finale objective inventory and finish gating, plus existing mechanics and editor behavior. The finish-gating test explicitly supplies completed flags; it is not a simulated end-to-end route.
+- Local HTTP browser playthroughs reached the finish of all six built-in courses. In the finale, the visible checklist recorded every required action before the finish accepted the run. The first five were played for completion, not exhaustive interaction coverage.
+- Existing save/export code remains in place; this pass did not exercise a pre-existing browser save or mobile controls. The finale is a checklist challenge, not a general course-solvability proof.
