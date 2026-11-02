@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "9f04b492232a39615d86261f8bcb26054fb8d40c",
+  "sourceCommit": "b6087279edc3140b6cbced2bf972e24fb9f9cb37",
+  "runId": "41382588600",
+  "url": "http://127.0.0.1:4187/",
+  "inputs": {
+    "index.html": "0516e9d89ea7087496ba244bba769e6d7afba9ba6950e5975cb28f7d073d7fe3",
+    "style.css": "2283e4aad91cfd13aa386e958b247fc383f043e99e7c1bac7fcb0487b43b83c3",
+    "rules.js": "6612376c59986658f293d8a7c72749c6826195fc7c4bf7adc18b322823317175",
+    "courses.js": "be204e9f2608d7ce4765ab5bd2875260c7eee5448321bfa5b4f607d8e7e6a896",
+    "game.js": "573bea62ec0f3d50296d3ce7248e896e25488783ca1a9f5bc9cf18f2d62d09ef"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "screenshots": [
+    "course-01.png",
+    "course-02.png"
+  ]
+}
